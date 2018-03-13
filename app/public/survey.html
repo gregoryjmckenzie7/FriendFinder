@@ -1,0 +1,204 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+   
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Survey</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class = "container">
+        <h1>Survey Questions</h1>
+        <hr>
+        
+        <h2>Please enter some information about yourself</h2>
+        
+        <h3> Full Name(required)</h3>
+        <input type = "text" id = "name" class = "form-control" required>
+        
+        <h3>Please provide a current picture of yourself</h3>
+        <input type = "text" id = "picture" class = "form-control" required>
+        <hr>
+
+<h3></h3>
+    Question 1</h3>
+<h4>I see myself as extraverted, enthusiastic.</h4>
+<select class="chosen-select" id="q1">
+    <option value="0"></option>
+    <option value="1">1 (Agree Strongly)</option>
+    <option value="2">2 (Agree)</option>
+    <option value="3">3 (Neutral Opinion)</option>
+    <option value="4">4 (Disagree)</option>
+    <option value="5">5 (Strongly Disagree)</option>
+</select>
+<h3>Question 2</h3>
+<h4>I see myself as critical, quarrelsome.</h4>
+<select class="chosen-select" id="q2">
+    <option value="0"></option>
+    <option value="1">1 (Agree Strongly)</option>
+    <option value="2">2 (Agree)</option>
+    <option value="3">3 (Neutral Opinion)</option>
+    <option value="4">4 (Disagree)</option>
+    <option value="5">5 (Strongly Disagree)</option>
+</select>
+<h3>Question 3</h3>
+<h4>I see myself as dependable, self-disciplined.</h4>
+<select class="chosen-select" id="q3">
+    <option value="0"></option>
+    <option value="1">1 (Agree Strongly)</option>
+    <option value="2">2 (Agree)</option>
+    <option value="3">3 (Neutral Opinion)</option>
+    <option value="4">4 (Disagree)</option>
+    <option value="5">5 (Strongly Disagree)</option>
+</select>
+<h3>Question 4</h3>
+<h4>I see myself as anxious, easily upset.</h4>
+<select class="chosen-select" id="q4">
+    <option value="0"></option>
+    <option value="1">1 (Agree Strongly)</option>
+    <option value="2">2 (Agree)</option>
+    <option value="3">3 (Neutral Opinion)</option>
+    <option value="4">4 (Disagree)</option>
+    <option value="5">5 (Strongly Disagree)</option>
+</select>
+<h3>Question 5</h3>
+<h4>I see myself as open to new experiences, complex.</h4>
+<select class="chosen-select" id="q5">
+    <option value="0"></option>
+    <option value="1">1 (Agree Strongly)</option>
+    <option value="2">2 (Agree)</option>
+    <option value="3">3 (Neutral Opinion)</option>
+    <option value="4">4 (Disagree)</option>
+    <option value="5">5 (Strongly Disagree)</option>
+</select>
+<h3>Question 6</h3>
+<h4>I see myself as reserved, quiet.</h4>
+<select class="chosen-select" id="q6">
+    <option value="0"></option>
+    <option value="1">1 (Agree Strongly)</option>
+    <option value="2">2 (Agree)</option>
+    <option value="3">3 (Neutral Opinion)</option>
+    <option value="4">4 (Disagree)</option>
+    <option value="5">5 (Strongly Disagree)</option>
+</select>
+<h3>Question 7</h3>
+<h4>I see myself as sympathetic, warm.</h4>
+<select class="chosen-select" id="q7">
+    <option value="0"></option>
+    <option value="1">1 (Agree Strongly)</option>
+    <option value="2">2 (Agree)</option>
+    <option value="3">3 (Neutral Opinion)</option>
+    <option value="4">4 (Disagree)</option>
+    <option value="5">5 (Strongly Disagree)</option>
+</select>
+<h3>Question 8</h3>
+<h4>I see myself as disorganized, careless.</h4>
+<select class="chosen-select" id="q8">
+    <option value="0"></option>
+    <option value="1">1 (Agree Strongly)</option>
+    <option value="2">2 (Agree)</option>
+    <option value="3">3 (Neutral Opinion)</option>
+    <option value="4">4 (Disagree)</option>
+    <option value="5">5 (Strongly Disagree)</option>
+</select>
+<h3>Question 9</h3>
+<h4>I see myself as calm, emotionally stable.</h4>
+<select class="chosen-select" id="q9">
+    <option value="0"></option>
+    <option value="1">1 (Agree Strongly)</option>
+    <option value="2">2 (Agree)</option>
+    <option value="3">3 (Neutral Opinion)</option>
+    <option value="4">4 (Disagree)</option>
+    <option value="5">5 (Strongly Disagree)</option>
+</select>
+<h3>Question 10</h3>
+<h4>I see myself as conventional, uncreative.</h4>
+<select class="chosen-select" id="q10">
+    <option value="0"></option>
+    <option value="1">1 (Agree Strongly)</option>
+    <option value="2">2 (Agree)</option>
+    <option value="3">3 (Neutral Opinion)</option>
+    <option value="4">4 (Disagree)</option>
+    <option value="5">5 (Strongly Disagree)</option>
+</select>
+<br>
+<br>
+
+<button type="submit" class="btn btn-primary btn-lg btn-block" id="submit">
+    <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+    </i>
+    Submit</button>
+<hr>
+    </div>
+
+<footer class = "footer">
+    <div class = "container">
+        <p>
+            <a href = "/api/friends">API Friends List</a> |
+            <a href = "https://github.com/gregoryjmckenzie7/FriendFinder"></a>
+        </p>
+
+    </div>
+</footer>
+
+<div class = "modal fade" id = "modalResults" role = "dialog">
+    <div class = "modal-dialog" role = "document">
+        <div class = "modal-content">
+            <div class = "modal-header">
+                <button type = "button" class = "close" data-dismiss = "modal">&times;</button>
+                <h3 class = "modal-title" id = "SystemNotification"><span id = "match-name"></span></h3>
+            </div>
+            <div class ="modal-body"><img class = "match-img">
+            </div>
+            <div class = "modal-footer">
+                <button type = "button" class = "btn btn-default" data-dismiss = "modal"></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
+<script>
+
+    $("#submit").click(function(event) {
+        event.preventDefault();
+        if($("#name").val() == "" || $("#picture").val() == "" || $(".chosen-select") == "") {
+            $("#match-name").text("Please complete the survey with all of your information");
+            $("modalResults").modal("toggle");
+        }
+        else {
+
+            var scores = JSON.strigify([$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val()]);
+            
+            var newFriend = {
+                name: $("#name").val().trim(),
+                photo: $("#picture").val().trim(),
+                scores: scores
+            }
+        }
+        $.post("/api/friends", newFriend, function (data) {
+            if (data) {
+                $("#match-name").text("You matched with: " + data.name);
+                $("#match-img").attr("src", data.photo);
+                $("#modalResults").modal("togle");
+            }
+            else {
+                $("#match-name").text("I'm sorry an error occured, we did not find a friend for you.");
+                $("#match-img").attr("src", "http://www.clker.com/cliparts/Z/u/b/a/j/i/big-red-x-hi.png");
+                $("#modalResults").modal("toggle");
+            }
+            $("name").val("");
+            $("#picture").val("");
+            $(".chosen-select").val(0);
+        })
+    })
+</script>
